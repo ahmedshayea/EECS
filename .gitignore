@@ -24,3 +24,11 @@ node_modules/
 
 # Local Netlify folder
 .netlify/
+
+# Jekyll related (if needed in the future)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+/vendor
+Gemfile.lock
