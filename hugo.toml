@@ -1,4 +1,4 @@
-baseURL = "https://yourusername.github.io/"
+baseURL = "https://ahmedshayea.github.io/EECS/"
 title = "My Digital Garden"
 theme = "PaperMod"
 
@@ -13,7 +13,7 @@ theme = "PaperMod"
     subtitle = "A digital garden"
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/yourusername"
+    url = "https://github.com/ahmedshayea"
 
 # Enable Emoji support (for Obsidian compatibility)
 [build]
