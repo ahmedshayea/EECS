@@ -1,0 +1,32 @@
+baseURL = "https://yourusername.github.io/"
+title = "My Digital Garden"
+theme = "PaperMod"
+
+# PaperMod settings
+[params]
+  env = "production"
+  defaultTheme = "auto"  # auto dark/light
+  math = true  # Enable math support globally
+  [params.profileMode]
+    enabled = true
+    title = "My Notes"
+    subtitle = "A digital garden"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+
+# Enable Emoji support (for Obsidian compatibility)
+[build]
+  writeStats = true
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true  # Allows HTML in markdown (needed for math)
+  [markup.highlight]
+    noClasses = false
+
+# Menu (optional)
+[[menu.main]]
+  name = "Articles"
+  url = "articles/"
+  weight = 10
+
